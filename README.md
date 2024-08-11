@@ -1,8 +1,6 @@
 # MARKML
 
-<p align="center">
-  <a href="https://github.com/MLankaoui/markml"><img src="https://www.canva.com/design/DAGNj_LQ110/TQhnsqXm8j3MuoVOPW3mHg/view?utm_content=DAGNj_LQ110&utm_campaign=designshare&utm_medium=link&utm_source=editor" alt="markml"></a>
-</p>
+![markml](MARKML.png)
 
 **MARKML** is a simple Markdown to HTML converter designed to transform Markdown syntax into HTML. This tool provides basic support for common Markdown elements including headers, text decorations, links, and images.
 
