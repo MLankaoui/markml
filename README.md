@@ -1,5 +1,7 @@
 # MARKML
 
+![markml](MARKML.png)
+
 **MARKML** is a simple Markdown to HTML converter designed to transform Markdown syntax into HTML. This tool provides basic support for common Markdown elements including headers, text decorations, links, and images.
 
 ## Features
@@ -18,7 +20,7 @@ To use **MARKML**, you need to have Go installed on your machine. Follow these s
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/markml.git
+   git clone https://github.com/MLankaoui/markml.git
    cd markml
 
 ## Build the project:
