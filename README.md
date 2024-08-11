@@ -6,6 +6,7 @@
 
 **MARKML** is a simple Markdown to HTML converter designed to transform Markdown syntax into HTML. This tool provides basic support for common Markdown elements including headers, text decorations, links, and images.
 
+
 ## Features
 
 - **Headers**: Converts Markdown headers (`# Header`, `## Header`, etc.) to corresponding HTML header tags (`<h1>`, `<h2>`, etc.).
@@ -44,7 +45,39 @@ To ensure the correctness of the conversion functions, unit tests are provided. 
 ```bash
 go test ./...
 ```
-Contributing
+## TODO
+
+- **Lists**:
+  - **Unordered Lists**: Support Markdown unordered lists (`* item`, `- item`, `+ item`) and convert them to HTML `<ul>` and `<li>` tags.
+  - **Ordered Lists**: Support Markdown ordered lists (`1. item`, `2. item`) and convert them to HTML `<ol>` and `<li>` tags.
+
+- **Code Blocks**:
+  - **Inline Code**: Convert inline code (`` `code` ``) to HTML `<code>code</code>`.
+  - **Fenced Code Blocks**: Convert fenced code blocks (```` ```language \n code \n ``` ````) to HTML `<pre><code>code</code></pre>`.
+
+- **Blockquotes**:
+  - Convert Markdown blockquotes (`> quote`) to HTML `<blockquote>quote</blockquote>`.
+
+- **Tables**:
+  - Convert Markdown tables (with pipes and dashes) to HTML `<table>`, `<tr>`, `<th>`, and `<td>` tags.
+
+- **Links and Images with Titles**:
+  - Support Markdown links with titles (`[text](url "title")`) and images with titles (`![alt text](url "title")`), converting them to HTML `<a href='url' title='title'>text</a>` and `<img src='url' alt='alt text' title='title'>`.
+
+- **HTML Escaping**:
+  - Implement escaping for HTML special characters to prevent rendering issues and security risks.
+
+- **Error Handling and Validation**:
+  - Add error handling for malformed Markdown inputs to ensure graceful degradation.
+
+- **Custom Extensions and Configuration**:
+  - Implement support for custom Markdown extensions and user configuration options.
+
+- **Command-Line Interface Enhancements**:
+  - Improve CLI support to accept input files and output options for better user experience.
+
+
+## Contributing
 Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
 
 ## License
