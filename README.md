@@ -47,6 +47,6 @@ Contributions are welcome! If you have suggestions or improvements, please open 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Contact
-For any questions or feedback, please contact your-email@example.com.
+For any questions or feedback, please contact marouanelankaoui66@gmail.com.
 
 Enjoy converting Markdown to HTML with MARKML!
